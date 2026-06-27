@@ -13,7 +13,7 @@ original = sys.argv[3]
 msg_template = f"Конвертируй язык {lang1} в язык {lang2}. Исходник: {original}"
 endpoint = "https://models.github.ai/inference"
 model_name = "openai/gpt-4o"
-token = "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"
+token = os.getenv("GITHUB_TOKEN")
 
 client = ChatCompletionsClient(
     endpoint=endpoint,
