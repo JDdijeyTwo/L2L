@@ -1,4 +1,5 @@
-export GITHUB_TOKEN=$(cat gtoken.env)
+export GITHUB_TOKEN=$1
+pip install --upgrade pip
 pip install azure-ai-inference
 pip install azure-core
 mv main.py l2l
