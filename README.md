@@ -1,6 +1,10 @@
 L2L - Конвертер языков.
 L2L - Технология, на базе *ChatGPT*. Позволяет конвертировать *один язык в другой*(или один язык в много других)
 
+Сначала установите Python:
+Termux - pkg install python
+Linux - apt install python
+
 Перед использованием нужно сделать следующее:
 1. Зайти на _GitHub_ → _Marketplace_ → там ввести *"type:models"* → выбрать *OpenAI* _GPT 4o_
 _(*обязательно* GPT 4o. Ничего другое работать *не будет*)_дальше нажать use this model
@@ -44,9 +48,9 @@ l2l "Исходный язык" "Целевой язык" "Код на Исхо�
 • *И еще че нибудь*
 
 Связь:
-*Ютуб:* _@JDdijey7music_
-*Телеграм:* _@JDdijey7music_
-*ТГК:* _@ItsJustJDdijey_
+*Ютуб:* @JDdijey_music
+*Телеграм:* @JDdijey_music
+*ТГК:* @ItsJustJDdijey
 
 Пример
 l2l "python" "c++" "print('Hello!')"
@@ -57,6 +61,6 @@ l2l "python" "java&c" "print('h')"
 
 Пока!
 
-L2L 1.1
+L2L 1.1.1
 © 2026 JDdijey
 MIT License
