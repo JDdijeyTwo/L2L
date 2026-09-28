@@ -1,9 +1,9 @@
 L2L - Конвертер языков.
-L2L - Технология, на базе *ChatGPT*. Позволяет конвертировать *один язык в другой*(или один язык в много других)
+L2L - Технология, на базе **ChatGPT**. Позволяет конвертировать *один язык в другой*(или один язык в много других)
 
 Сначала установите Python:
-Termux - pkg install python
-Linux - apt install python
+*Termux* - ```pkg install python```
+*Linux* - ```apt install python```
 
 Перед использованием нужно сделать следующее:
 1. Зайти на _GitHub_ → _Marketplace_ → там ввести *"type:models"* → выбрать *OpenAI* _GPT 4o_
